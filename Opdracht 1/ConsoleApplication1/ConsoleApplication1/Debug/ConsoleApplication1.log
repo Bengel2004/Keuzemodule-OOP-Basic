@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+c:\users\niels\c++\helloworld\oop school klassen\consoleapplication1\consoleapplication1\student.h(11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\niels\c++\helloworld\oop school klassen\consoleapplication1\consoleapplication1\student.h(20): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\users\niels\c++\helloworld\oop school klassen\consoleapplication1\consoleapplication1\module.h(11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\niels\c++\helloworld\oop school klassen\consoleapplication1\consoleapplication1\module.h(20): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Niels\C++\HelloWorld\OOP School Klassen\ConsoleApplication1\Debug\ConsoleApplication1.exe
