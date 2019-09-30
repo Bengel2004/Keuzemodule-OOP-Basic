@@ -1,9 +1,9 @@
 #pragma once
 #include <string>
+#include "Persoon.h"
 
-class Docent {
+class Docent : public Persoon {
 private:
-	std::string name;
 	float salary;
 
 public:
@@ -15,19 +15,8 @@ public:
 	// in de haakjes te doen
 
 	Docent();
-	Docent(const std::string _name, float _salary) : name(_name), salary(_salary) {
-		//this->name = _name;
-		//this->salary = _salary;
-	}
+	Docent(const std::string _name, int _age, float _salary);
 
-	std::string getName()
-	{
-		return name;
-	}
-
-	float getSalary()
-	{
-		return salary;
-	}
+	float getSalary();
 };
 

@@ -2,22 +2,13 @@
 #include <string>
 #include "Persoon.h"
 
-class Student : Persoon {
+class Student : public Persoon {
 private:
-	std::string name;
 	int studentNr;
 
 public:
 	Student();
-	Student(const std::string _name, float _nr) : name(_name), studentNr(_nr) { }
+	Student(const std::string _name, int _age, int _nr);
 
-	std::string getName()
-	{
-		return name;
-	}
-
-	float getStudentNr()
-	{
-		return studentNr;
-	}
+	float GetStudentNr();
 };

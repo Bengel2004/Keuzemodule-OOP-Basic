@@ -1,21 +1,17 @@
 #include "pch.h"
 #include "Docent.h"
 
-//Docent::Docent(){}
-//
-//float Docent::getSalary()
-//{
-//	return salary;
-//}
+Docent::Docent(const std::string _name, int _age, float _salary)
+{
+	this->name = _name;
+	this->age = _age;
+	this->salary = _salary;
+}
 
-//Docent::Docent()
-//{
-//}
-//
-//
-//Docent::~Docent()
-//{
-//}
+float Docent::getSalary()
+{
+	return salary;
+}
 
 
 
