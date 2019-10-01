@@ -15,7 +15,6 @@ int main()
 	Module module1 = Module("OOP Basic", 5);
 	
 	Docent leraar1 = Docent("Kipje", 31, 3.50);
-	std::cout << leraar1.GetName() << " " << leraar1.getSalary() << std::endl;
 	module1.SetDocent(leraar1);
 
 	// aantal studenten in de klas
@@ -41,7 +40,7 @@ int main()
 	// haalt alle studenten op
 	for (int i = 0; i < studentenCount; i++)
 	{
-		std::cout << module1.GetStudent(i) << std::endl;
+		std::cout << module1.GetStudent(i).GetName() << std::endl;
 	}
 
 

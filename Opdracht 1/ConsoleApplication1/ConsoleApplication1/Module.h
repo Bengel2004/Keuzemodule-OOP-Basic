@@ -7,17 +7,18 @@ class Module {
 private:
 	std::string name;
 	int ec;
-	std::vector<std::string> studenten;
-	std::string docent;
+	std::vector<Student> studenten;
+	Docent docent;
 
 public:
+
 	Module(const std::string _name, float _ec);
 	std::string GetName();
 	float GetEc();
 	void SetStudent(Student _student);
-	std::string GetStudent(int _index);
+	Student GetStudent(int _index);
 
 	void SetDocent(Docent _docent);
-	std::string GetDocent();
+	Docent GetDocent();
 };
 

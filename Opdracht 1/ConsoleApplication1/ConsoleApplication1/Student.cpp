@@ -2,6 +2,7 @@
 #include "Student.h"
 #include "Persoon.h"
 
+Student::Student() {}
 
 Student::Student(const std::string _name, int _age, int _nr)
 { 

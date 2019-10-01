@@ -1,2 +1,4 @@
-﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\Niels Poelder\Documents\C++\School\Opdracht 1\ConsoleApplication1\Debug\ConsoleApplication1.exe
+﻿  Module.cpp
+c:\users\niels\c++\school-oop-basic\opdracht 1\consoleapplication1\consoleapplication1\module.cpp(5): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\niels\c++\school-oop-basic\opdracht 1\consoleapplication1\consoleapplication1\module.cpp(14): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Niels\C++\School-OOP-Basic\Opdracht 1\ConsoleApplication1\Debug\ConsoleApplication1.exe

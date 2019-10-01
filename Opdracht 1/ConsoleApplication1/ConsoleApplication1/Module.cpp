@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "Module.h"
-
+#include <iostream>
 
 Module::Module(const std::string _name, float _ec) : name(_name), ec(_ec) { }
 
@@ -16,18 +16,19 @@ float  Module::GetEc()
 
 void Module::SetDocent(Docent _docent)
 {
-	docent = _docent.GetName();
+	docent = _docent;
+	std::cout << "Docent " << _docent.GetName() << " is toegevoegd aan module " << name << std::endl;
 }
-std::string Module::GetDocent()
+Docent Module::GetDocent()
 {
 	return docent;
 }
 
 void Module::SetStudent(Student _student)
 {
-	studenten.push_back(_student.GetName());
+	studenten.push_back(_student);
 }
-std::string Module::GetStudent(int _index) 
+Student Module::GetStudent(int _index) 
 {
 	return studenten.at(_index);
 }
